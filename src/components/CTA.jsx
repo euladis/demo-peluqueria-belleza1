@@ -1,4 +1,5 @@
-import { CalendarDays, MessageCircle } from "lucide-react";
+import { CalendarDays } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 function CTA() {
   return (
@@ -27,7 +28,7 @@ function CTA() {
             target="_blank"
             rel="noreferrer"
           >
-            <MessageCircle size={17} />
+            <WhatsAppIcon size={17} />
             Escribinos por WhatsApp
           </a>
         </div>

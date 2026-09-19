@@ -1,4 +1,5 @@
-import { MessageCircle, MapPin, Clock3 } from "lucide-react";
+import { MapPin, Clock3 } from "lucide-react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 function LogoMark() {
   return (
@@ -44,7 +45,7 @@ function Footer() {
               </a>
 
               <a href="https://wa.me/59800000000" aria-label="WhatsApp">
-                <MessageCircle size={16} />
+                <WhatsAppIcon size={16} />
               </a>
             </div>
           </div>

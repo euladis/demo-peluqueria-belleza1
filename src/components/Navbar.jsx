@@ -1,5 +1,6 @@
-import { Menu, X, CalendarDays, MessageCircle } from "lucide-react";
+import { Menu, X, CalendarDays } from "lucide-react";
 import { useState } from "react";
+import WhatsAppIcon from "./icons/WhatsAppIcon";
 
 function LogoMark() {
   return (
@@ -74,7 +75,7 @@ function Navbar() {
               aria-label="WhatsApp"
               onClick={closeMenu}
             >
-              <MessageCircle size={17} />
+              <WhatsAppIcon size={17} />
             </a>
           </div>
         </nav>
